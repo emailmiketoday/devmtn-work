@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="friendsList">
+	
+	
+<head>
+	
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+	<title>First Angular</title>
+	
+</head>
+
+
+	<body ng-controller="mainCtrl">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/mainCtrl.js"></script>
+		
+		
+		<div class="top">
+			<div class="top header">
+				<h1>{{name}}'s Friend Page</h1>
+			</div>
+			
+			<p class="ownersList">My name is: {{name}}, I am redundant!</p>
+			
+		</div>
+
+		
+		<div class="mid">
+				
+			<div class="mid header">
+				<h1>My Friends</h1>
+			</div>
+			
+			<div ng-repeat="friend in friends">
+				<p class="friend"> {{friend}} </p>
+			</div>
+			
+			<input type="text" placeholder="Add new friend!"/>
+			
+			
+		</div>
+			
+		
+		
+			
+		
+		
+		
+		
+		
+	</body>
+
+
+
+</html>
