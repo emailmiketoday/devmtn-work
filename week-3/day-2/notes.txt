@@ -1,0 +1,50 @@
+NOTES
+////////////////////////////////////////////
+WEEK 3	DAY 2
+
+Services -- a way to structure and organize our code to divide responsibilities.
+
+	Separation of Concerns - make several smaller pieces, makes it easier to read,
+							 it is cleaner to read, helps minimize mistakes.
+							 Makes debugging easier!
+							 
+** Computer Science Degree **
+
+
+Question: How to organize your code?
+
+////////////////////////////////////////////
+
+Angular Built In Services!
+
+1. $http, $watch, $location, $log, $filter, $timeout, $scope
+
+$watch service example, it is called a "Shallow Watch" only go the first level deep.
+Below the code will automatically save/update anytime a change happens to the 'cars' array!
+
+app.controller('myController', function($scope) {
+
+	$scope.cars = [];
+	
+	$scope.watch('cars', function() {
+		save();
+-- Fires if the 1st level child changes.
+	})
+	
+	$scope.watchCollection('cars', function() {
+		save();
+	}, true)
+-- This one files if any descendant every changes in any way.
+
+
+	$scope.watchCollection('cars', function() {
+	});
+-- Fires on - Add, remove, move, change, delete.
+
+});
+
+
+
+
+
+

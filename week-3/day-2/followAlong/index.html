@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="foodApp">
+	
+	
+<head>
+	<meta charset="UTF-8">
+	<title>What do I eat</title>
+	<link rel="stylesheet" href="styles.css">
+	
+	
+	
+</head>
+
+
+
+
+<body ng-controller="mainCtrl">
+	
+	
+	<div class="questions col">
+		<div ng-repeat="question in questions">
+			<button ng-click="selected(question)">
+				{{question.prompt}}
+				</button>
+		</div>
+	</div>
+	
+	<div class="choices col">
+			<div ng-repeat="food in foods | filter: foodFilter" class="food">
+				{{food.name}} <span>- {{food.origin}}</span>
+				<div>calories: {{food.calories}} - <span>spicy: 
+					{{food.spicyRating}}</span>     </div>
+			</div>
+	</div>
+	
+	
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js">angular</script>
+	<script src="js/app.js"></script>
+	<script src="js/mainCtrl.js"></script>
+	<script src="js/foodService.js"></script>
+	<script src="js/questionsService.js"></script>
+	
+</body>
+
+
+</html>

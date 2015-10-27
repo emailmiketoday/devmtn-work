@@ -1,0 +1,15 @@
+.col {
+	width: 48%;
+}
+
+.questions {	
+}
+
+.food {
+	min-width: 300px;
+}
+
+.food span {
+	text-align: right;
+	color: gray;
+}
