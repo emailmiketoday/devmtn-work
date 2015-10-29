@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body ng-app="app">
+    <div ng-controller="AppController">
+        <!-- search -->
+        <input type="search" ng-model="query" 
+            placeholder="Enter the name and click add">
+        <input type="button" value="Search" ng-click="search()">
+
+        <div ng-repeat="monster in monsters">{{ monster.name }} |
+            <button ng-click="remove($index)"> X </button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="test.js"></script>
+</body>
+
+</html>

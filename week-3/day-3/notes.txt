@@ -1,0 +1,45 @@
+The Internet 
+
+1. Servers are just computers, nothing fancy.
+2. Any computer can be a server.
+
+//////////////////////////////////////////////////////////
+
+How do computers communicate with each other?
+
+1. Almost everything that goes across the internet gets turned into a string.
+
+
+	JSON
+		1. Property names wrapped in quotes.
+		2. No complex types, only strings & numbers, boolean, arrays, objects as values.
+		3. Colons always colons.
+		
+		
+	API
+		1. Application Program Interface
+		2. Rest APIs
+		
+	REST
+		1. Representational State Transfer 
+		2. Representation - Model
+		3. State - Snapshot at the time
+		4. Rest is a Protocol -  Protocol is the procedure to take
+		
+		A set of standardized instructions.
+		
+	CRUD - Rest Methods
+		GET
+			EX: http://www.test.com/api/student
+			EX: http://www.test.com/api/student/specificstudent
+			
+			The URL describes the subject matter, the method (GET, POST, ETC) is what
+			you want to do.
+			
+		PUT
+		POST
+		DELETE
+			EX: http://www.test.com/api/student/specificstudent
+			
+	CHAINING
+	
