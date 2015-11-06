@@ -1,0 +1,22 @@
+Side note: On a service, anything you put on the 'THIS' command, the controller has access to as well!
+
+
+// What is the flow of data?
+
+	1. Use HTTP to get the data.
+	2. Use the GET method to get the data.
+	3. Use the .THEN to run the call back after the data is received.
+	
+	THE SERVICE
+	
+	1. Grouping together like functionalities.
+	
+	THE CONTROLLER
+	
+	1. Brings in the service, and tells the service what to do, the controller is the manager.
+	
+	//////////////////////////////////////////////////////////////////////////////////////////
+	PROMISE FLOWS
+	
+	
+	

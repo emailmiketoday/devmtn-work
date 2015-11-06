@@ -1,0 +1,27 @@
+
+
+.inputContainer {
+	background-color: red;
+	width: 25%;
+}
+
+.inputFields {
+	width: 90%;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.newTitle {
+	width: 75%;
+	margin-top: 20px;
+}
+
+.newDescription {
+	width: 98%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif
+}

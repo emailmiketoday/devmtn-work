@@ -20,9 +20,9 @@ app.controller('mainCtrl', function($scope, parseService){
   //The postData function will take whatever the user typed in (hint: look at the html and see what ng-model correlates to on the input box),
   //pass that text to the postData method on the parseService object which will then post it to the parse backend.
 
-  $scope.formatDate = function(dateString){
+  /*$scope.formatDate = function(dateString){
     return new Date(dateString).toLocaleString();
-  }
+  }*/
 
   //uncomment this code when your getParseData function is finished
   //This goes and gets new data every second, which mimicking a chat room experience.

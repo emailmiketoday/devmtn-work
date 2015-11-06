@@ -91,7 +91,7 @@ body {
 
 .actualMsg {
   width: 90%;
-  background: rgba(25, 25, 25, .1);
+  background: #ffffff;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
   margin-top: 10px;

@@ -439,11 +439,16 @@ app.controller('mainController', function($scope) {
 	
 	
 	
-	
-	
-	
-	
-	
+		
+/*###Step 6: Make the list sortable
+* Create two variables in your friend controller, one for the attribute to sort on and another boolean
+for an ascending vs descending sort
+* Add a value="" to each item in the list of options. This value needs to equal the value of the property, on each object, in your array that you want to sort by
+* Bind the variables to their respective select elements using ng-model
+* Add the ordering logic to your filter 
+** Sample syntax      | orderBy: propertyName : isReversed
+** See https://docs.angularjs.org/api/ng/filter/orderBy
+*/
 	
 	
 	

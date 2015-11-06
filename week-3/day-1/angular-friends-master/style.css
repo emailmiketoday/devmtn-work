@@ -26,9 +26,7 @@ input, select, form, ul {
 	text-align: center;
 }
 
-.friends{
 
-}
 
 .friends ul{
 	width: 500px;
@@ -44,17 +42,19 @@ input, select, form, ul {
 
 .profile-pic {
 	float: left;
-	padding-right: 13px;
+	margin-right: 15px;
+	margin-bottom: 5px;
 	max-height: 50px;
+	
 }
 
 .friend{
 	text-align: left;
 	border: 1px solid #ccc;
 	padding: 15px;
+	padding-bottom: 25px;
 	margin: 2px 0px;
 	border-radius: 3px;
-	box-shadow: 2px 1px 1px #888888;
 }
 
 .friend h3 {
@@ -78,7 +78,10 @@ ul{
 .num-friends {
 	color: #3b5998;
 	font-size: 12px;
-	font-weight: bold
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	clear: left;
 }
 .hashtag {
 	font-weight: bold;

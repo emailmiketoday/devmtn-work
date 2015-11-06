@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* This class adjusts the results*/
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 100%; 
+    height: 1200px;
+    min-height: 100%;
+    background-color: #121314;
+}
+
+/* This class adjusts the categories bar*/
+.ngTopPanel {
+  line-height: 25px;
+  background-color: #648F00;
+  color: #121314;
+}
+
+
+
+
+/* This class is unknown at this point, likely to do with grid result?*/
+.ngCell  {
+  display : table-cell;
+  height: auto !important;
+  overflow:visible;
+  position: static;
+}
+
+/* This class is unknown at this point, likely to do with grid result?*/
+.ngRow {
+  display : table-row;
+  height: auto !important;
+  position: static;
+}
+
+/* This class is unknown at this point, likely to do with grid result?*/
+.ngCellText{
+  height: auto !important;
+  white-space: normal;
+  overflow:visible;
+}
+
+/* This class interferes with the .gridStyle, it's true purpose is unknown at this point */
+.ngGrid.unselectable {
+  margin-top: 10px;
+}
